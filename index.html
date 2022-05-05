@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Chat</title>
+  </head>
+
+  <body>
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="left">
+        <div class="phone">
+          <div class="content-box">
+            <div class="top">
+              <div class="top-left">
+                <div class="top-left-content-box">
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_left</span
+                  >
+                  <img id="avatar" src="img/avatar.jpg" alt="" />
+                  <h4 class="profile-name">
+                    <span class="heading-main">Samuel Green</span>
+                    <span class="heading-sub">Available to walk</span>
+                  </h4>
+                </div>
+              </div>
+              <div class="top-right">
+                <span id="more-icon" class="material-symbols-outlined"
+                  >more_vert</span
+                >
+              </div>
+            </div>
+            <div class="main-window">
+              <div class="sender">
+                That sounds great. I’d be happy with that.
+              </div>
+              <div class="sender">
+                Could you send over some pictures of your dog, please?
+              </div>
+              <div class="media-image-box">
+                <img src="img/dog-image-1.jpg" alt="" />
+                <img src="img/dog-image-2.jpg" alt="" />
+                <img src="img/dog-image-3.jpg" alt="" />
+              </div>
+              <div class="sender creator">
+                Here are a few pictures. She’s a happy girl!
+              </div>
+              <div class="sender creator" id="creator">Can you make it?</div>
+              <div class="sender">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </div>
+              <div class="sender sender2">
+                <div class="cirular-loading"></div>
+                <span class="walk-text">30 minute walk</span>
+                <span class="price">$29</span>
+              </div>
+              <div id="sender2" class="sender sender2">
+                <div class="cirular-loading"></div>
+                <span class="walk-text">1 hour walk</span>
+                <span class="price">$49</span>
+              </div>
+              <form action="">
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Type a message…"
+                />
+                <button class="btn-send">
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_right</span
+                  >
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-content-box">
+          <h4 class="hero-heading">Simple booking</h4>
+          <p class="first-para">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
